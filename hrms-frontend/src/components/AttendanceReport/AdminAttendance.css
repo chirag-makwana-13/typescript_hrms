@@ -1,0 +1,85 @@
+.admin-attendance-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: -50px;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.employee-table {
+  width: 1500px;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.employee-table th {
+  background-color: #002f4b;
+  color: white;
+}
+
+.employee-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.employee-table tr:hover {
+  background-color: #ddd;
+}
+
+.attendance-button, .today-button {
+  padding: 10px 15px;
+  background-color: #002f4b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.attendance-button:hover {
+  background-color: #00507a;
+}
+
+.today-button:hover{
+  background-color: rgb(79, 96, 153);
+}
+
+.today-button{
+  margin-left: 10px;
+}
+
+.employee-details,
+.attendance-details {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.employee-details h2,
+.attendance-details h2 {
+  color: #002f4b;
+  margin-bottom: 15px;
+}
+
+.employee-details p,
+.attendance-details p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}

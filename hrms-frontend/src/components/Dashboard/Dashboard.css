@@ -1,0 +1,199 @@
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: -200px;
+    width: 95%;
+}
+
+.upper-dashboard, .lower-dashboard {
+    width: 48%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.upper-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lower-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* .dashboard-section {
+    margin-bottom: 20px;
+} */
+
+.p{
+    font-size: 18px;
+}
+
+.attendance{
+  padding-left: 0;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+strong{
+    color: #002f4b;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background-color: #fff;
+    width: 250px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.pagination-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.pagination-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.birthday-card, .holiday-card, .login-card , .attendance-card{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.todaylog-card{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 370px;
+    background-color: #fff7f0;
+}
+
+.todaycard {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background-color: #fff;
+    width: 400px;
+    max-height: 500px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.todaylogs-section{
+    margin-left: 430px;
+}
+
+.birthday-card {
+    background-color: #f0f8ff;
+}
+
+.holiday-card {
+    background-color: #fefbd8;
+}
+
+.login-card{
+    background-color: aliceblue;
+}
+
+.attendance-card{
+    background-color: rgb(255, 240, 242);
+}
+
+.actions button, .refresh, .addholiday ,.holiday-actions,.modal-buttons button {
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 5px;
+}
+.deleteholiday,.updateholiday{
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+}
+.actions button.checkin,.refresh,.addholiday {
+    background-color: #28a745 !important;
+}
+
+.actions button.breakin,.updateholiday {
+    background-color: #ffb700;
+}
+
+.actions button.breakout {
+    background-color: #ffc107; 
+}
+
+.actions button.checkout, .deleteholiday {
+    background-color: #dc3545 !important; 
+}
+
+.actions button.disabled {
+    background-color: #6c757d; 
+    cursor: not-allowed;
+}
+
+.actions button:hover:not(.disabled) {
+    transform: scale(1.05);
+}
+
+.error-message {
+    color: #dc3545; 
+    margin: 10px 0;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.holiday-actions button {
+    margin-right: 20px;
+}

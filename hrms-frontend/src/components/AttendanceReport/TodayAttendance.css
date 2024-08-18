@@ -1,0 +1,46 @@
+.today-attendance-container {
+  padding: 20px;
+}
+
+.today-log-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.today-log-table th, .today-log-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.update-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.update-button:hover {
+  background-color: #45a049;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  background-color: #f44336;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #e53935;
+}
+
+.time-input {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 1rem;
+}

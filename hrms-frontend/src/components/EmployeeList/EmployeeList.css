@@ -1,0 +1,167 @@
+.employee-list-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: -50px;
+  height: 100vh;
+}
+
+.employee-detail-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.left-details,
+.middle-bio,
+.right-profile {
+  flex: 1;
+  min-width: 200px;
+}
+
+.left-details {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.middle-bio {
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.right-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-profile img {
+  height: 500px;
+  max-width: 100%;
+  /* height: auto; */
+  border-radius: 15px;
+}
+
+.custom-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 80%;
+  height: 80%;
+  z-index: 1000;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.custom-modal-title {
+  flex: 1;
+  text-align: center;
+}
+
+.close {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.yes-button,
+.cancel-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.cancel-button {
+  background-color: red;
+}
+
+.yes-button:hover,
+.cancel-button:hover {
+  opacity: 0.8;
+}
+
+.employee-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.employee-card {
+  width: 18rem;
+  margin-top: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.search {
+  width: 350px !important;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  max-height: 800px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.modal {
+  width: 400px;
+}
+
+.employee-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 25px 50px -12px #002f4b1a;
+}
+.datahotline {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.datastrong {
+  font-style: italic;
+}

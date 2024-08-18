@@ -1,0 +1,60 @@
+.calendar-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.calendar-button:hover {
+  background-color: #0056b3;
+}
+
+.calendar-button.active {
+  background-color: #0056b3;
+  border-bottom: 2px solid #003d7a;
+}
+
+.rbc-event {
+  cursor: pointer;
+  color: #003d7a;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.rbc-event:hover {
+  background-color: #e6f7ff;
+}
+
+.rbc-day-bg:hover{
+  background-color: #e6ecf5;
+  cursor: pointer;
+}
+
+.rbc-today {
+  background-color: #e8fde7;
+}
+
+.rbc-month-header {
+  background-color: #002f4b;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.rbc-month-view{
+  border-radius: 10px;
+}
+
+.rbc-header{
+  border-left: None;
+  border-bottom: None;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}

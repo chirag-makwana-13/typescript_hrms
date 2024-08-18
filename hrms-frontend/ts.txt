@@ -1,0 +1,8 @@
+npm install typescript@4.9.5
+npm install --legacy-peer-deps
+npm install --force
+npm outdated
+npm update
+npm install --save-dev @types/react-big-calendar
+npm install typescript @types/react @types/react-dom
+npm install @types/axios

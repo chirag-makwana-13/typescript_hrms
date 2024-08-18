@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "target": "es6",
+    "lib": ["dom", "es6"],
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true /* Skip type checking all .d.ts files. */
+  },
+  "include": ["src/*/**"]
+}
